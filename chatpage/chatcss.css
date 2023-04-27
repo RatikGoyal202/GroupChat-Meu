@@ -1,0 +1,95 @@
+.logo{
+    margin: auto;
+    padding: 5px 5px 5px;
+    height: 50px;
+    border: 3px;
+    display: block;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.678);
+    margin: 0px 560px;
+    border-radius: 30px;
+
+}
+body{
+    background: url(chatpage1.jpg)no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    
+}
+.container{
+    max-width: 990px;
+    background-color:  rgba(0, 0, 0, 0.678);
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px 10px 2px;
+    height: 70vh;
+    width: 430px;
+    border-radius: 30px;
+    overflow-y:scroll;
+}
+.container::-webkit-scrollbar{
+    width: 10px;
+    /* background-color: rgba(255, 0, 0, 0.333); */
+    margin: 10px 10px;
+}
+.container::-webkit-scrollbar-track{
+    border-radius: 30px;
+}
+.container::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background-color:rgb(34, 212, 203) ;
+}
+.message{
+    background-color: white;
+    border-radius: 20px;
+    margin: 14px 11px 12px;
+    padding: 7px 15px 7px;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+#send-container{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}
+#messageInput{
+    margin: 11px 0px 13px;
+    padding: 19px 19px 17px;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 400px;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px ;
+    border-style: none;
+    
+}
+.btn{
+    width: 49px;
+    margin: 19px -2px 12px;
+    padding: 31px 0px 21px;
+
+    border-top-right-radius:30px ;
+    border-bottom-right-radius:30px ;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-style: none;
+    color: white;
+    border-left: 1px solid rgb(34, 212, 203);
+    
+
+}
+input{
+    color: white;
+    padding-left: 3px;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+
+
+
+
