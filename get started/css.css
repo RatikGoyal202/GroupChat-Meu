@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Mukta', sans-serif;  */
+}
+#logo{
+    margin: 51px -42px;
+    margin-top: 49px;
+    padding: 1px;
+}
+#logo img{
+     margin: -15px 40px;
+    padding: 10px 24px;
+    padding-top: 14px;
+    height: 50px;
+    border: 3px;
+    border-color: transparent;
+
+}
+
+#navbar{
+    background-color:rgba(0, 0, 0, 0.678);
+    height: 60px;
+    margin: 4px 4px;
+    /* margin-right: 810px; */
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    font-family: 'Mukta', sans-serif;
+    position: fixed;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: rgb(255, 255, 255);
+    background-color: #0009;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    font-size: medium;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+} 
+#navbar ul li a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: rgb(34, 212, 174) 1px solid;
+
+    
+    /* background-image:linear-gradient(white,#0000,#0000,rgb(255, 255, 255)); */
+    
+}
+#sec1{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+    height: 100vh;
+
+}
+#para{
+    
+    padding-left: 780px;
+    padding-top: 50px;
+    color: rgb(199, 199, 199);
+    font-family: 'Recursive', sans-serif;
+    padding-right: 20px;
+}
+#para h1{
+    /* font-family: 'Train One', cursive; */
+    /* font-family: 'Patrick Hand', cursive; */
+    font-family: 'Raleway', sans-serif;
+    /* font-size: small; */
+    padding: 10px 10px;
+    border-color: black;
+    border-width: 2px;
+    
+    background-color: #0004;
+    border-radius: 30px;
+    
+    
+}
+#para h1 a{
+    padding: 20px 20px;
+    
+    font-size: 80px;
+}
+#button{
+    border: 1px solid #34dbc5;
+    font-family: 'Raleway', sans-serif;
+    size: 30px;
+    align-content: center;
+    /* margin-left: 250px; */
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color:#34dbc5;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
